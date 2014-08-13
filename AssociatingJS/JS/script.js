@@ -1,7 +1,8 @@
-//Expressions - Concatenating Strings
+//Casting
 
-var a = 6;
-var b = 7;
+var areaCode = 913;
+var firstPart = 220;
+var secPart = 7655;
 
-var result = a + b;
-console.log(result);
+var phoneNo = "(" + String(areaCode) + ")" + String(firstPart) + "-" + String(secPart);
+console.log(phoneNo);
