@@ -1,4 +1,5 @@
 // Industrial Expression - How many cases of call bourbon will be needed for 1 year at the bar?
+// Kayla Simmons 8/14/14 Expressions_Industry Assignment
 
 
 var weeklyUse = prompt ("How " + "many " + "drinks " + "of " + "call " + "bourbon " + "are " + "sold " + "weekly?", 550);
