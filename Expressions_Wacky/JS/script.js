@@ -1,7 +1,7 @@
 //How much soap is needed for slip and slid. In my household we don't use the new designed slip and slides as they
 //tear easily and you can't fit more than one person at a time. We use a big tarp, a sprinkler, and dish soap! (as
-//do many other country folk)
-//Kayla Simmons 8/14/14 Expressions_Wacky Assignment 
+//do many other country folk in these parts!)
+//Kayla Simmons 8/14/14 Expressions_Wacky Assignment
 
 var length = prompt ("How long is the tarp you are using for your slip and slid in feet?", 15);
 // establishing the size of the tarp used
