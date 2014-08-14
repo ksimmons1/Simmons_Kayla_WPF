@@ -1,6 +1,6 @@
 //Personal Expression
 // How much tile do I need for my new dining room?
-//Kayla Simmons 8/14/14 Expressions_Personal Assignment 
+//Kayla Simmons 8/14/14 Expressions_Personal Assignment
 
 var length = prompt ("How long is the room you are tiling in feet?", 30);
 // length of the room you are tiling
