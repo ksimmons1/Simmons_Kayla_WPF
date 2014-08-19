@@ -1,13 +1,16 @@
-//Conditional Logic- Logical Operators
+//Conditional Logic- Ternary Operators
 
-var budget = 100;
-var smartPhone = 199.99;
-var wonLottery = true;
+var age = 6;
+var book;
 
-//if the price of the phone is less our budget AND if our paycheck is over 300
-if(smartPhone < budget || wonLottery){
-    console.log("We can buy the phone!!");
+// under 10 Green eggs and Ham otherwise they get The Time Machine
+
+/*if(age < 10){
+    book = "Green Eggs and Ham";
 }else{
-    console.log("No phone for you!");
+    book = "The Time Machine";
 }
+console.log(book)*/
 
+book = (age < 10) ? "Green Eggs and Ham" : "The Time Machine";
+console.log(book);
