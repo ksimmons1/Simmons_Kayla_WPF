@@ -13,5 +13,5 @@ var amount = 9.59;
 // how many people are eating times how much per person it costs to eat gives you how much it will cost for the breakfast buffet
 var cost = howManyPeople * amount;
 
-// cost must be equal to or less that what you can afford 
+// cost must be equal to or less that what you can afford
 (cost <= budget) ? console.log("Yes you can eat a buffet this morning!!") : console.log("You have to cook breakfast today.");
