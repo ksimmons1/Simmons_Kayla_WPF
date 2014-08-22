@@ -26,9 +26,9 @@ if(startTime + howLongWillIWork <= timeNeeded){
     console.log("It's going to be a long day.")
 }
 
-// Invalid entry entered for teams variable however shows two messages in console.
+// Invalid entry entered for teams variable however does not enter this into teams variable.
 if(teams == ""){
-    console.log("Invalid entry on number of teams.")
+    prompt("Invalid entry. How many teams are working today?");
 }
 
 // Invalid entry entered for number of houses variable however shows two messages in console.
