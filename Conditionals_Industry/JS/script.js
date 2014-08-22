@@ -1,11 +1,26 @@
 //Kayla Simmons 8/21/14 Conditionals
 // Will I get off work before or after 3 today?
+// I cant view the live lesson to see if the alert/prompt for the user having the option of re entering the
+// information when a prompt is left empty and I can't find anything saying how to use the prompt. I can get it
+//pop up and re ask the information but it does not put it in the formula.
+
+
 
 // Each team has 3 people on it
 var teams = prompt("How many teams are working today?");
 
+// Invalid entry entered for teams variable however does not enter this into teams variable.
+if(teams == ""){
+    alert("Invalid entry on how many teams are working today. Please refresh and enter correct information for an accurate output of information.");
+}
+
 //Number of houses on the schedule to be cleaned for the day
 var numberOfHouses = prompt("How many houses are we cleaning today?");
+
+// Invalid entry entered for number of houses variable however shows two messages in console.
+if (numberOfHouses == ""){
+    alert(" Invalid entry on how many houses need cleaned today. Please refresh and enter correct information for an accurate output of information.")
+}
 
 //Each house and travel to it takes an hour and a half
 var timePerHouse = 1.5;
@@ -26,12 +41,4 @@ if(startTime + howLongWillIWork <= timeNeeded){
     console.log("It's going to be a long day.")
 }
 
-// Invalid entry entered for teams variable however does not enter this into teams variable.
-if(teams == ""){
-    prompt("Invalid entry. How many teams are working today?");
-}
 
-// Invalid entry entered for number of houses variable however shows two messages in console.
-if (numberOfHouses == ""){
-    console.log(" Invalid entry on how many houses need cleaned today.")
-}
