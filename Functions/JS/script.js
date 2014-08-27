@@ -1,13 +1,9 @@
-//Functions - Variable Scope
+//Functions - Parameters and arguments
 
-var width = 5;
-
-function calcArea(){
-    var width = 20;
-    var height = 30;
-    var area = width * height;
-    //console.log(area);
+function dogYears(age){ //parameters
+    var dogYears = age * 7;
+    console.log("Bailey is " + dogYears + " years old.")
 }
 
-console.log(width);
-calcArea();
+dogYears(8);// arguments
+dogYears(3);
