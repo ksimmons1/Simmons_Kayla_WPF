@@ -1,4 +1,4 @@
-//Functions - Basic Structure
+//Functions - Basic Execution
 
 function outptMsg(){
     console.log("Hello World");
@@ -10,3 +10,7 @@ function calcArea(){
     var area = width * height
     console.log(area);
 }
+
+calcArea();
+calcArea();
+calcArea();
