@@ -1,8 +1,5 @@
-// Loops - Do While
+// Loops - For Loop - short hand version of the loops
 
-var c = 10;
-do{
-    console.log(c + " kegs on the wall");
-    c--;
+for (var i = 10; i > 0; i--){
+    console.log(i + " kegs on the wall")
 }
-while(c > 0);
