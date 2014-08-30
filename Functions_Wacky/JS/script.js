@@ -3,6 +3,11 @@
 // How long to smoke your meat. (We are having brisket this weekend!!)
 
 var poundsOfMeat= prompt("How many pounds of meat are you planning to smoke?");
+
+while(poundsOfMeat === "" || isNaN(poundsOfMeat)){
+    poundsOfMeat = prompt("Don't leave blank and enter a number value. \n How many pounds of meat are you wanting to smoke?")
+}
+
 var timeToSmoke = function (weight){
     var time = weight * 1.5;
     return time
