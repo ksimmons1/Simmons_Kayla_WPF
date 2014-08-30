@@ -9,4 +9,4 @@ var timeToSmoke = function (weight){
 };
 
 var smokeTime = timeToSmoke(poundsOfMeat);
-console.log(smokeTime)
+console.log(smokeTime + " hours are needed to smoke your meat. \n Depending on the thickness of you meat, and if weight is added because of bones, it may take you slightly less time to smoke your meat.");
