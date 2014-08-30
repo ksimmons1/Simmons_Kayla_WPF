@@ -15,7 +15,7 @@ function keno(){
 }
 
 var ticket = keno();
-console.log(ticket + " Bullseye if purchased.");
+console.log(ticket + " Bulls eye if purchased.");
 
 for(var a = 0; a < spot; a++){
     console.log(keno() + " These numbers are good for " + times + " games. Good luck!")
