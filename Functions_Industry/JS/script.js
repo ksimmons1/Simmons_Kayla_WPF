@@ -3,7 +3,18 @@
 // Making a Keno ticket
 
 var spot = prompt("How many spots?");
+
+if(spot === ""){
+    spot = prompt("Enter a number value here. \n How many spots are you wanting to play?")
+}
+
 var times = prompt("How many times?");
+
+if(times === ""){
+    times = prompt("Enter a number value here. \n How many games are you wanting to play?")
+}
+
+
 
 function keno(){
     var startingNum = 1;
