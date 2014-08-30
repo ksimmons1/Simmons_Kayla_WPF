@@ -9,3 +9,4 @@ var timeToSmoke = function (weight){
 };
 
 var smokeTime = timeToSmoke(poundsOfMeat);
+console.log(smokeTime)
